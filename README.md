@@ -1,4 +1,3 @@
-
 ![App Exposé goes from 3 recent items to 1. (via deletion)](preview.png)
 
 # Recents
@@ -10,3 +9,11 @@ Re-arrange or delete Recent Items. Does not work on apps that don't show recent 
 ### Protip: @End of System Settings -> Control Center:&nbsp; you can choose to display up to 50 recent items.
 
 # note: in most cases you need to quit the (target) application in order for changes to persist
+
+
+
+**Update:**
+
+[Dock Exposé](https://dockexpose.netlify.app) now has a custom bottom bar (see: app exposé, includes a Recents Editor / launcher)
+
+This app will be archived or open sourced if there's no way to work within sandbox.
