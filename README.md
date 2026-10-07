@@ -1,4 +1,4 @@
-![App Exposé goes from 3 recent items to 1. (via deletion)](preview.png)
+![App Exposé goes from 3 recent items to 1. (via deletion)](screenshot.png)
 
 # Recents
 
