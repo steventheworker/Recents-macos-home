@@ -10,6 +10,9 @@ IS_OPEN_SOURCE="0"
 SOURCE_REPOSITORY=""
 RELEASE_REPOSITORY="steventheworker/Recents-macos-home"
 SITE_URL="https://recents-macos.netlify.app"
+HOME_REPOSITORY="steventheworker/Recents-macos-home"
+REPO_DESCRIPTION="Edit the recent items shown in macOS App Exposé — rearrange or delete them."
+REPO_TOPICS="macos recent-items app-expose productivity file-launcher"
 
 # --- source app ---------------------------------------------------------------
 SOURCE_ROOT="${RECENTS_SOURCE_ROOT:-$HOME/proj/obj-c/Recents}"
