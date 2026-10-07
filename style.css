@@ -1,0 +1,77 @@
+:root {
+  --bg: #09090b;
+  --panel: #18181b;
+  --border: #27272a;
+  --text: #fafafa;
+  --muted: #a1a1aa;
+  --accent: #34d399;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+a { color: var(--accent); }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand { font-weight: 700; text-decoration: none; color: var(--text); }
+.nav nav { display: flex; gap: 1.25rem; }
+.nav nav a { color: var(--muted); text-decoration: none; }
+.nav nav a:hover { color: var(--text); }
+
+main { max-width: 60rem; margin: 0 auto; padding: 0 1.5rem 4rem; }
+
+.hero { padding: 4rem 0 2rem; }
+.hero h1 { font-size: 2.75rem; margin: 0 0 0.5rem; }
+.tagline { font-size: 1.25rem; color: var(--muted); margin: 0 0 0.5rem; }
+.description { max-width: 44rem; color: var(--muted); }
+.version { color: var(--muted); font-size: 0.875rem; }
+
+.button {
+  display: inline-block;
+  background: var(--accent);
+  color: #052e1a;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+}
+
+.screenshots { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 2rem 0; }
+.screenshots img { width: 18rem; max-width: 100%; border: 1px solid var(--border); border-radius: 0.6rem; }
+
+section h2 { margin-top: 3rem; }
+.features { padding-left: 1.1rem; color: var(--muted); }
+
+.release {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 0.6rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.release h3 { margin: 0 0 0.25rem; }
+.release-date { color: var(--muted); font-size: 0.875rem; margin: 0 0 0.5rem; }
+.release ul { margin: 0; padding-left: 1.1rem; color: var(--muted); }
+
+footer {
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.875rem;
+  padding: 2rem 1rem;
+}
