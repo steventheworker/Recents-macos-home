@@ -8,9 +8,7 @@ Re-arrange or delete Recent Items. Does not work on apps that don't show recent 
 
 ### Protip: @End of System Settings -> Control Center:&nbsp; you can choose to display up to 50 recent items.
 
-# note: in most cases you need to quit the (target) application in order for changes to persist
-
-
+# note: in some cases you need to quit the (target) application in order for changes to persist
 
 **Update:**
 

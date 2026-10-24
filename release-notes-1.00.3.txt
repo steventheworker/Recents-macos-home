@@ -1,0 +1,13 @@
+• Added a recents overview strip to the menu bar with keyboard navigation
+• Compact app rows and close buttons on hover in the overview
+• Floating title above the selected overview item
+• Single click selects, double click opens; Cmd+Enter opens, Cmd+Delete removes
+• Fixed video thumbnail crash in the recents overview
+• Menu bar recents now show generic per-kind icons with visible images
+• Icons displayed beside each recent item in the menu bar
+• Shared overview close button instead of one per tile (reduced clutter)
+• Search in overview with autofocus and no focus ring
+• Recents counts load immediately on first row render
+• Added app refresh from the context menu
+• Stale bookmarks now render and can be removed
+• Full disk permission prompts added for macOS accessibility

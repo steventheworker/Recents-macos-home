@@ -7,7 +7,7 @@
          <title>Version 1.00.3</title>
          <pubDate>Fri, 23 Oct 2026 22:37:51 -0700</pubDate>
          <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-         <sparkle:releaseNotesLink>https://recents-macos.netlify.app/changelog-sparkle/releases/v1.00.3/</sparkle:releaseNotesLink>
+         <sparkle:releaseNotesLink>https://recents.netlify.app/changelog-sparkle/releases/v1.00.3/</sparkle:releaseNotesLink>
          <enclosure
             url="https://github.com/steventheworker/Recents-macos-home/releases/download/v1.00.3/Recents-macos-1.00.3.zip"
             sparkle:version="10003"

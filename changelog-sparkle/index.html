@@ -1,83 +1,138 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Recents changelog</title>
-  <link rel="stylesheet" href="/style.css" />
-</head>
-<body>
-  <main>
-    <p class="back"><a href="/">&larr; Recents</a></p>
-    <h1>Changelog</h1>
-    <div class="releases">
-      <!-- release-list -->
-    <section class="release" data-version="1.00.3">
-      <h3><a href="https://recents-macos.netlify.app/changelog-sparkle/releases/v1.00.3/">v1.00.3</a></h3>
-      <p class="release-date">October 23, 2026 · <a href="https://github.com/steventheworker/Recents-macos-home/releases/download/v1.00.3/Recents-macos-1.00.3.zip">Download Recents-macos-1.00.3.zip</a></p>
-      <ul>
-        <li>drop xcode header comments</li>
-        <li>Only generalize the kinds RecentItemIcon actually thumbnails</li>
-        <li>Use generic per-kind icons for menu bar recents and force images visible</li>
-        <li>Show an icon beside each recent item in the menu bar menu</li>
-        <li>Use one shared overview close button instead of one per tile</li>
-        <li>render titles in OverviewItem, autofocus ring off on search</li>
-        <li>Show overview close buttons on hover and add a menu bar mode</li>
-        <li>Compact app rows, add overview close buttons and Settings window</li>
-        <li>Show a floating title above the selected overview item</li>
-        <li>Load recents counts on first row render</li>
-        <li>Select on single click, open on double click, add cmd+enter/cmd+delete</li>
-        <li>Fix video thumbnail crash in the recents overview</li>
-        <li>Add keyboard navigation and a recents overview strip</li>
-        <li>Revert &quot;license manager testing&quot;</li>
-        <li>ZIP name matches RELEASE_ZIP_NAME</li>
-        <li>bump pbxproj versions correctly</li>
-        <li>Add scripts/make-release.sh from the home-pipeline source template</li>
-        <li>working again</li>
-        <li>license manager testing</li>
-        <li>v1.00.2</li>
-        <li>pdf preview (add white background)</li>
-        <li>resize recents window</li>
-        <li>bump version</li>
-        <li>preview images for PDF&#x27;s</li>
-        <li>unresolved bookmark reformat title</li>
-        <li>recentswindow fix scroll height</li>
-        <li>cmd+0 focuses main window</li>
-        <li>dblclick app icon = launch, default click on recent item = open with target app (not default app for extension)</li>
-        <li>cmd+click = reveal in finder</li>
-        <li>search -&gt; cmd+backspace</li>
-        <li>backspace (search)</li>
-        <li>formatting, tooltips</li>
-        <li>add preview count</li>
-        <li>windows start off scrolled to bottom</li>
-        <li>update readme</li>
-        <li>prompt full disk permission (3)</li>
-        <li>prompt full disk permission (2)</li>
-        <li>render stale (unresolved) bookmarks ––now they can be removed!</li>
-        <li>prompt full disk permission</li>
-        <li>search + filter out blacklisted/webapps/automations/etc.</li>
-        <li>add app -&gt; refresh UI</li>
-        <li>drop entire apps folder works</li>
-        <li>files could be opened</li>
-        <li>refactor (3)</li>
-        <li>refactor (2)</li>
-        <li>refactor (1)</li>
-        <li>ManagedApp</li>
-        <li>drag &amp; drop z-index, appbecameactive</li>
-        <li>add logo</li>
-        <li>deleteBtn</li>
-        <li>actually working</li>
-        <li>RecentItem – click to open + keep refreshed</li>
-        <li>click to openManagedApp</li>
-        <li>working drag drop to rearrange</li>
-        <li>refactor into nswindow (listen mousedown etc.)</li>
-        <li>checkpoint — render main window</li>
-        <li>consistent thumbnails among filetypes</li>
-        <li>checkpoint works for vlc</li>
-        <li>Initial Commit</li>
-      </ul>
-    </section>
-    </div>
-  </main>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Recents changelog</title>
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<main>
+			<p class="back"><a href="/">&larr; Recents</a></p>
+			<h1>Changelog</h1>
+			<div class="releases">
+				<!-- release-list -->
+				<section class="release" data-version="1.00.3">
+					<h3>
+						<a
+							href="https://recents.netlify.app/changelog-sparkle/releases/v1.00.3/"
+							>v1.00.3</a
+						>
+					</h3>
+					<p class="release-date">
+						October 23, 2026 ·
+						<a
+							href="https://github.com/steventheworker/Recents-macos-home/releases/download/v1.00.3/Recents-macos-1.00.3.zip"
+							>Download Recents-macos-1.00.3.zip</a
+						>
+					</p>
+					<ul>
+						<li>drop xcode header comments</li>
+						<li>
+							Only generalize the kinds RecentItemIcon actually
+							thumbnails
+						</li>
+						<li>
+							Use generic per-kind icons for menu bar recents and
+							force images visible
+						</li>
+						<li>
+							Show an icon beside each recent item in the menu bar
+							menu
+						</li>
+						<li>
+							Use one shared overview close button instead of one
+							per tile
+						</li>
+						<li>
+							render titles in OverviewItem, autofocus ring off on
+							search
+						</li>
+						<li>
+							Show overview close buttons on hover and add a menu
+							bar mode
+						</li>
+						<li>
+							Compact app rows, add overview close buttons and
+							Settings window
+						</li>
+						<li>
+							Show a floating title above the selected overview
+							item
+						</li>
+						<li>Load recents counts on first row render</li>
+						<li>
+							Select on single click, open on double click, add
+							cmd+enter/cmd+delete
+						</li>
+						<li>
+							Fix video thumbnail crash in the recents overview
+						</li>
+						<li>
+							Add keyboard navigation and a recents overview strip
+						</li>
+						<li>Revert &quot;license manager testing&quot;</li>
+						<li>ZIP name matches RELEASE_ZIP_NAME</li>
+						<li>bump pbxproj versions correctly</li>
+						<li>
+							Add scripts/make-release.sh from the home-pipeline
+							source template
+						</li>
+						<li>working again</li>
+						<li>license manager testing</li>
+						<li>v1.00.2</li>
+						<li>pdf preview (add white background)</li>
+						<li>resize recents window</li>
+						<li>bump version</li>
+						<li>preview images for PDF&#x27;s</li>
+						<li>unresolved bookmark reformat title</li>
+						<li>recentswindow fix scroll height</li>
+						<li>cmd+0 focuses main window</li>
+						<li>
+							dblclick app icon = launch, default click on recent
+							item = open with target app (not default app for
+							extension)
+						</li>
+						<li>cmd+click = reveal in finder</li>
+						<li>search -&gt; cmd+backspace</li>
+						<li>backspace (search)</li>
+						<li>formatting, tooltips</li>
+						<li>add preview count</li>
+						<li>windows start off scrolled to bottom</li>
+						<li>update readme</li>
+						<li>prompt full disk permission (3)</li>
+						<li>prompt full disk permission (2)</li>
+						<li>
+							render stale (unresolved) bookmarks ––now they can
+							be removed!
+						</li>
+						<li>prompt full disk permission</li>
+						<li>
+							search + filter out
+							blacklisted/webapps/automations/etc.
+						</li>
+						<li>add app -&gt; refresh UI</li>
+						<li>drop entire apps folder works</li>
+						<li>files could be opened</li>
+						<li>refactor (3)</li>
+						<li>refactor (2)</li>
+						<li>refactor (1)</li>
+						<li>ManagedApp</li>
+						<li>drag &amp; drop z-index, appbecameactive</li>
+						<li>add logo</li>
+						<li>deleteBtn</li>
+						<li>actually working</li>
+						<li>RecentItem – click to open + keep refreshed</li>
+						<li>click to openManagedApp</li>
+						<li>working drag drop to rearrange</li>
+						<li>refactor into nswindow (listen mousedown etc.)</li>
+						<li>checkpoint — render main window</li>
+						<li>consistent thumbnails among filetypes</li>
+						<li>checkpoint works for vlc</li>
+						<li>Initial Commit</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+	</body>
 </html>
