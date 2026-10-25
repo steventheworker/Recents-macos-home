@@ -4,14 +4,11 @@
 #       PRODUCT_NAME RELEASE_ZIP_NAME APPCAST
 #
 # Contract:
-#   - currentversion.txt is set to VERSION;
 #   - the "Latest" pointer in index.html/README.md points at VERSION;
 #   - a release section is inserted (or replaced, when re-run) for VERSION;
 #   - historical release sections and their download URLs are never modified.
 set -eu
 ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
-
-printf '%s\n' "$VERSION" > "$ROOT/currentversion.txt"
 
 python3 - "$ROOT" "$VERSION" "$OLD_VERSION" "$DOWNLOAD_URL" "$PUB_DATE_HUMAN" "${BULLETS_FILE:-}" "$PRODUCT_NAME" "$RELEASE_ZIP_NAME" "$NOTES_URL" <<'PY'
 import html, pathlib, re, sys
